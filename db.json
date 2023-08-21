@@ -1,14 +1,142 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "auth": {
+    "phone": "08123123123",
+    "otp": 1234,
+    "token": "tOX1rU9BddvJlkky84UIPM8rSCWzvd5PrF4IPB28RWpmoOSVt6fUJy0j3k6FLSR3"
+},
+  "foods": [
+    {
+        "foodId": 1,
+        "foodName": "Nasi padang",
+        "foodImage": "assets/images/f1.jpeg",
+        "foodPrice": 15000,
+        "foodQty": 10,
+        "foodCategory": "makanan,minang,makanan berat,padang",
+        "foodDiscount": 0,
+        "storeId": 1,
+        "isPopular": true,
+        "qty": 0
+    },
+    {
+        "foodId": 2,
+        "foodName": "Nasi campur madura",
+        "foodImage": "assets/images/f2.jpeg",
+        "foodPrice": 15000,
+        "foodQty": 10,
+        "foodCategory": "makanan,madura,makanan berat",
+        "foodDiscount": 0,
+        "storeId": 2,
+        "isPopular": true,
+        "qty": 0
+    },
+    {
+        "foodId": 3,
+        "foodName": "Hazelnut chocho",
+        "foodImage": "assets/images/f3.jpeg",
+        "foodPrice": 20000,
+        "foodQty": 10,
+        "foodCategory": "minuman,es,segar",
+        "foodDiscount": 0,
+        "storeId": 3,
+        "isPopular": true,
+        "qty": 0
+    },
+    {
+        "foodId": 4,
+        "foodName": "Hazelnut chocho 4",
+        "foodImage": "assets/images/f4.jpeg",
+        "foodPrice": 20000,
+        "foodQty": 10,
+        "foodCategory": "minuman,es,segar",
+        "foodDiscount": 0,
+        "storeId": 3,
+        "isPopular": true,
+        "qty": 0
+    }
+],
+  "order": {
+    "orderId": 1,
+    "userId": 1,
+    "assignedId": 1,
+    "orderDate": 12345,
+    "orderList": [
+        {
+            "foodId": 1,
+            "qty": 12
+        },
+        {
+            "foodId": 2,
+            "qty": 12
+        }
+    ],
+    "additional": "test",
+    "messages": [
+        {"left": "test"},
+        {"right": "test"}
+    ],
+    "totalPrice": 12345,
+    "orderStatus": "123",
+    "foodRate": 5,
+    "assigneeRate": 5
+},
+  "otp": {
+    "phone": "08123123123",
+    "otp": 1234
+},
+  "store": [
+    {
+        "storeId": 1,
+        "storeName": "Padang pelita",
+        "storeImage": "assets/images/padang.jpeg",
+        "foodIds": "1", 
+        "storeCategory": "makanan,minang,makanan berat,padang",
+        "storeDiscount": 0,
+        "isOpen": true,
+        "workingHour": "123456,123456",
+        "addressInfo": {
+            "lat": "12345",
+            "long": "12345",
+            "address": "test",
+            "phone": "123"
+        },
+        "isPopular": true,
+        "storeRate": 5
+    },
+    {
+        "storeId": 2,
+        "storeName": "Warung madura",
+        "storeImage": "assets/images/f2.jpeg",
+        "foodIds": "2", 
+        "storeCategory": "makanan,minang,makanan berat,padang",
+        "storeDiscount": 0,
+        "isOpen": true,
+        "workingHour": "123456,123456",
+        "addressInfo": {
+            "lat": "12345",
+            "long": "12345",
+            "address": "test",
+            "phone": "123"
+        },
+        "isPopular": true,
+        "storeRate": 5
+    },
+    {
+        "storeId": 3,
+        "storeName": "Mai mai",
+        "storeImage": "assets/images/f1.jpeg",
+        "foodIds": "3,4", 
+        "storeCategory": "minuman,minang,makanan berat,padang",
+        "storeDiscount": 0,
+        "isOpen": true,
+        "workingHour": "123456,123456",
+        "addressInfo": {
+            "lat": "12345",
+            "long": "12345",
+            "address": "test",
+            "phone": "123"
+        },
+        "isPopular": true,
+        "storeRate": 5
+    }
+]
 }
