@@ -30,8 +30,8 @@
   "foods": [
     {
         "foodId": 1,
-        "foodName": "Nasi padang",
-        "foodImage": "https://iili.io/HpS2N5l.png",
+        "foodName": "Nasi rendang padang",
+        "foodImage": "https://iili.io/HpS3Tp2.png",
         "foodPrice": 15000,
         "foodQty": 10,
         "foodCategory": "makanan,minang,makanan berat,padang",
@@ -110,7 +110,7 @@
     {
         "storeId": 1,
         "storeName": "Padang pelita",
-        "storeImage": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "storeImage": "https://iili.io/HpS2N5l.png",
         "foodIds": "1", 
         "storeCategory": "makanan,minang,makanan berat,padang",
         "storeDiscount": 0,
