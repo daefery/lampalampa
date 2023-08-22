@@ -94,9 +94,9 @@
         "isOpen": true,
         "workingHour": "123456,123456",
         "addressInfo": {
-            "lat": "12345",
-            "long": "12345",
-            "address": "test",
+            "lat": -8.5386175,
+            "long": 118.4676706,
+            "address": "pelita jaya",
             "phone": "123"
         },
         "isPopular": true,
@@ -112,9 +112,9 @@
         "isOpen": true,
         "workingHour": "123456,123456",
         "addressInfo": {
-            "lat": "12345",
-            "long": "12345",
-            "address": "test",
+            "lat": -8.5386175,
+            "long": 118.4676706,
+            "address": "pelita jaya",
             "phone": "123"
         },
         "isPopular": true,
@@ -130,9 +130,9 @@
         "isOpen": true,
         "workingHour": "123456,123456",
         "addressInfo": {
-            "lat": "12345",
-            "long": "12345",
-            "address": "test",
+            "lat": -8.5386175,
+            "long": 118.4676706,
+            "address": "pelita jaya",
             "phone": "123"
         },
         "isPopular": true,
