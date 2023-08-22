@@ -2,30 +2,7 @@
   "auth": {
     "phone": "08123123123",
     "otp": 1234,
-    "token": "tOX1rU9BddvJlkky84UIPM8rSCWzvd5PrF4IPB28RWpmoOSVt6fUJy0j3k6FLSR3",
-    "user_address": [
-    {
-        "lat": -8.542383,
-        "long": 118.462434,
-        "address": "Gang rabalaju no 54",
-        "phone": "081224123123",
-        "userId": 1
-    },
-    {
-        "lat": -8.540097,
-        "long": 118.457358,
-        "address": "Kampo rato",
-        "phone": "081224123123",
-        "userId": 1
-    },
-    {
-        "lat": -8.542448,
-        "long": 118.464095,
-        "address": "Rade sala",
-        "phone": "081224123123",
-        "userId": 1
-    }
-]
+    "token": "tOX1rU9BddvJlkky84UIPM8rSCWzvd5PrF4IPB28RWpmoOSVt6fUJy0j3k6FLSR3"
 },
   "foods": [
     {
@@ -160,6 +137,29 @@
         },
         "isPopular": true,
         "storeRate": 5
+    }
+],
+  "useraddress": [
+    {
+        "lat": -8.542383,
+        "long": 118.462434,
+        "address": "Gang rabalaju no 54",
+        "phone": "081224123123",
+        "userId": 1
+    },
+    {
+        "lat": -8.540097,
+        "long": 118.457358,
+        "address": "Kampo rato",
+        "phone": "081224123123",
+        "userId": 1
+    },
+    {
+        "lat": -8.542448,
+        "long": 118.464095,
+        "address": "Rade sala",
+        "phone": "081224123123",
+        "userId": 1
     }
 ]
 }
