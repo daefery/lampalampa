@@ -20,7 +20,7 @@
     {
         "foodId": 2,
         "foodName": "Nasi campur madura",
-        "foodImage": "assets/images/f2.jpeg",
+        "foodImage": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "foodPrice": 15000,
         "foodQty": 10,
         "foodCategory": "makanan,madura,makanan berat",
@@ -32,7 +32,7 @@
     {
         "foodId": 3,
         "foodName": "Hazelnut chocho",
-        "foodImage": "assets/images/f3.jpeg",
+        "foodImage": "https://images.pexels.com/photos/109275/pexels-photo-109275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "foodPrice": 20000,
         "foodQty": 10,
         "foodCategory": "minuman,es,segar",
@@ -44,7 +44,7 @@
     {
         "foodId": 4,
         "foodName": "Hazelnut chocho 4",
-        "foodImage": "assets/images/f4.jpeg",
+        "foodImage": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "foodPrice": 20000,
         "foodQty": 10,
         "foodCategory": "minuman,es,segar",
@@ -87,7 +87,7 @@
     {
         "storeId": 1,
         "storeName": "Padang pelita",
-        "storeImage": "assets/images/padang.jpeg",
+        "storeImage": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "foodIds": "1", 
         "storeCategory": "makanan,minang,makanan berat,padang",
         "storeDiscount": 0,
@@ -105,7 +105,7 @@
     {
         "storeId": 2,
         "storeName": "Warung madura",
-        "storeImage": "assets/images/f2.jpeg",
+        "storeImage": "https://images.pexels.com/photos/64613/pexels-photo-64613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "foodIds": "2", 
         "storeCategory": "makanan,minang,makanan berat,padang",
         "storeDiscount": 0,
@@ -123,7 +123,7 @@
     {
         "storeId": 3,
         "storeName": "Mai mai",
-        "storeImage": "assets/images/f1.jpeg",
+        "storeImage": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "foodIds": "3,4", 
         "storeCategory": "minuman,minang,makanan berat,padang",
         "storeDiscount": 0,
